@@ -3,6 +3,7 @@ import autoSetters from "../public/assets/auto-setters.png";
 import fortune from "../public/assets/fortune-health.png";
 import center from "../public/assets/dbn-events-1.png";
 import crypto from "../public/assets/crypto.png";
+import creditScore from "../public/assets/creditScore.png";
 //import project item component
 import ProjectItem from "./ProjectItem";
 
@@ -44,6 +45,12 @@ const OurWork = () => {
             backgroundImg={crypto}
             projectUrl="https://crypto-markets-willtech.netlify.app/"
             tech="Crypto"
+          />
+          <ProjectItem
+            title="Check Credit Score"
+            backgroundImg={creditScore}
+            projectUrl="https://willtech-check-credit.netlify.app/"
+            tech="Credit Score"
           />
         </div>
 
