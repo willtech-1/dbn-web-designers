@@ -5,7 +5,7 @@ import Image from "next/image";
 // nextjs routing link
 import Link from "next/link";
 // import carDealership image
-import checker from "../public/assets/spending.png";
+import checker from "../public/assets/spending-check.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
 // carDealership project information

@@ -6,7 +6,7 @@ import crypto from "../public/assets/crypto.png";
 import creditScore from "../public/assets/creditScore.png";
 import topfit from "../public/assets/topfit.png";
 import ecommerce from "../public/assets/ecommerce.png";
-import checker from "../public/assets/checker.png";
+import checker from "../public/assets/spending-check.png";
 //import project item component
 import ProjectItem from "./ProjectItem";
 
