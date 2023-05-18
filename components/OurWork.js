@@ -61,19 +61,19 @@ const OurWork = () => {
             title="Topfit"
             backgroundImg={topfit}
             projectUrl="https://topfit.netlify.app/"
-            tech="Credit Score"
+            tech="Online Store"
           />
           <ProjectItem
             title="Spending Checker App"
             backgroundImg={checker}
             projectUrl="https://spendingchecker.netlify.app"
-            tech="Credit Score"
+            tech="Spending Checker"
           />
           <ProjectItem
             title="eCommerce"
             backgroundImg={ecommerce}
             projectUrl="https://ecommerce-pi-vert.vercel.app/"
-            tech="Credit Score"
+            tech="Shopping Cart"
           />
         </div>
       </div>
