@@ -4,6 +4,9 @@ import fortune from "../public/assets/fortune-health.png";
 import center from "../public/assets/dbn-events-1.png";
 import crypto from "../public/assets/crypto.png";
 import creditScore from "../public/assets/creditScore.png";
+import topfit from "../public/assets/topfit.png";
+import ecommerce from "../public/assets/ecommerce.png";
+import checker from "../public/assets/checker.png";
 //import project item component
 import ProjectItem from "./ProjectItem";
 
@@ -16,8 +19,10 @@ const OurWork = () => {
           Some of Our Work
         </p>
         <br />
-        
-        <p className="py-4 text-xl tracking-widest uppercase text-[#1A5276]">OUR WORK</p>
+
+        <p className="py-4 text-xl tracking-widest uppercase text-[#1A5276]">
+          OUR WORK
+        </p>
 
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
@@ -33,7 +38,7 @@ const OurWork = () => {
             projectUrl="https://combative-hen-fatigues.cyclic.app/"
             tech="ICC"
           />
-        
+
           <ProjectItem
             title="Personal Trainer"
             backgroundImg={fortune}
@@ -52,8 +57,25 @@ const OurWork = () => {
             projectUrl="https://willtech-check-credit.netlify.app/"
             tech="Credit Score"
           />
+          <ProjectItem
+            title="Topfit"
+            backgroundImg={topfit}
+            projectUrl="https://topfit.netlify.app/"
+            tech="Credit Score"
+          />
+          <ProjectItem
+            title="Spending Checker App"
+            backgroundImg={checker}
+            projectUrl="https://spendingchecker.netlify.app"
+            tech="Credit Score"
+          />
+          <ProjectItem
+            title="eCommerce"
+            backgroundImg={ecommerce}
+            projectUrl="https://ecommerce-pi-vert.vercel.app/"
+            tech="Credit Score"
+          />
         </div>
-
       </div>
     </div>
   );

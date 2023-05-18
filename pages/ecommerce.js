@@ -5,11 +5,11 @@ import Image from "next/image";
 // nextjs routing link
 import Link from "next/link";
 // import carDealership image
-import autoSettersImg from "../public/assets/auto-setters.png";
+import checker from "../public/assets/ecommerce.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
 // carDealership project information
-const autoSetters = () => {
+const ecommerce = () => {
   return (
     <>
       <Head>
@@ -27,13 +27,13 @@ const autoSetters = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src={autoSettersImg}
+            src={checker}
             alt="/"
           />
 
           {/* overlay text */}
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Car Dealership App</h2>
+            <h2 className="py-2">eCommerce</h2>
           </div>
         </div>
 
@@ -59,7 +59,7 @@ const autoSetters = () => {
               <button className="px-8 py-2 mt-4 mr-8">Code</button>
             </a> */}
             <a
-              href="https://auto-setters.netlify.app/"
+              href="https://ecommerce-pi-vert.vercel.app/"
               target="_blank"
               rel="noreferrer"
             >
@@ -101,4 +101,4 @@ const autoSetters = () => {
   );
 };
 
-export default autoSetters;
+export default ecommerce;
